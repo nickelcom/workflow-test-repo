@@ -5,11 +5,9 @@ public class Cat extends Animal{
         this.age=age;
     }
     @Override
-    public void makeNoise() {
+    public void makeNoise(String noise) {
 
-        System.out.println("Purr!");
-
-        System.out.println("Meow!");
+        System.out.println(noise);
 
     }
 }
