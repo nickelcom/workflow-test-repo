@@ -5,7 +5,10 @@ public class Cat extends Animal{
         this.age=age;
     }
     @Override
-    public void makeNoise() {
-        System.out.println("Meow!");
+
+    public void makeNoise(String noise) {
+
+        System.out.println(noise);
+
     }
 }
