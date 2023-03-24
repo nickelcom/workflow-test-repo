@@ -9,6 +9,6 @@ public class Cat extends Animal{
     public void makeNoise(String noise) {
 
         System.out.println(noise);
-
+	// New Feature Code ...
     }
 }
